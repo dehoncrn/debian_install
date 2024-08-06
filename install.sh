@@ -2,7 +2,7 @@
 
 sudo apt install -y \
 vim terminator python3 \
-zsh curl git fzf \
+zsh curl git fzf nmap htop\
 jupyter-notebook \
 python3-numpy python3-pandas \
 python3-sklearn
@@ -42,4 +42,6 @@ sudo apt-get update
 
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 #-----------------------------------------------------------------------------------------------------------
-
+#flatpak
+sudo apt install -y flatpak gnome-software-plugin-flatpak
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
