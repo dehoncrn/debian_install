@@ -7,7 +7,7 @@ jupyter-notebook \
 python3-numpy python3-pandas \
 python3-sklearn
 
-sudo apt remove \
+sudo apt remove -y\
 libreoffice-base-core libreoffice-core
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
