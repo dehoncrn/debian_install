@@ -2,7 +2,7 @@
 
 sudo apt install -y \
 vim terminator python3 \
-zsh curl git fzf nmap htop\
+zsh curl git fzf nmap htop \
 jupyter-notebook \
 python3-numpy python3-pandas \
 python3-sklearn
